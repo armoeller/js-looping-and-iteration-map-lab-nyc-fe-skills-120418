@@ -16,6 +16,6 @@ function nameToAttributes(drivers){
 }
 
 function attributesToPhrase(drivers){
-  return drivers.map(name => ({{name},'is from',{hometown}}));
+  return drivers.map(drivers => (driver.name + 'is from' + driver.hometown))
   
 }
